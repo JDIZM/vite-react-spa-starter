@@ -1,5 +1,5 @@
 import React from "react";
-import Layout from "./base-layout";
+import Layout from "./base-layout/base-layout";
 import lionel from "../assets/lionel.jpeg";
 
 const imageStyles = {
