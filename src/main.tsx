@@ -9,7 +9,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./theme/index.scss";
 
 // set router views
-import NotFound from "./layout/NotFound";
+import NotFound from "./layout/not-found-page";
 import Home from "./views/Home";
 
 // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
