@@ -1,0 +1,31 @@
+@use "@/theme/helpers/vars" as *;
+
+@mixin darkTheme {
+  @each $name, $colour in $dark-theme {
+    #{$name}: #{$colour};
+  }
+}
+
+@mixin lightTheme {
+  @each $name, $colour in $light-theme {
+    #{$name}: #{$colour};
+  }
+}
+
+// apply the light theme by default
+:root {
+  @include lightTheme;
+
+  @media (prefers-color-scheme: dark) {
+    @include darkTheme;
+  }
+}
+
+// apply the classes to the html/body to change color scheme
+.light {
+  @include lightTheme;
+}
+
+.dark {
+  @include darkTheme;
+}

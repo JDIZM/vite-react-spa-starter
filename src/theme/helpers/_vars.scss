@@ -1,0 +1,63 @@
+:root {
+  --links: var(--secondary);
+  --font-family: "Open Sans", Verdana, Arial, sans-serif;
+}
+
+$colours: (
+  primary: #101921,
+  secondary: #ff5349,
+  gradient: linear-gradient(101.51deg, #003e52 -10.81%, #101921 127.59%),
+  white: #ffffff,
+  green: #2dc98a,
+  black: #000000,
+  blue: #003e52,
+  grey: #e8eff3,
+  greytwo: #8aa4b3,
+  greythree: #4a697c,
+  greyfour: #adbfca,
+  greyfive: #8aa4b38c,
+  greysix: #adbfca,
+  dark: #1e1e1e
+);
+
+// create spacing units for mixin
+// margin and paddings will be created with mixin
+$spacing: (
+  1: 0.5rem,
+  2: 1rem,
+  3: 1.5rem,
+  4: 2rem,
+  5: 2.5rem,
+  6: 3rem,
+  7: 3.5rem,
+  8: 4rem
+);
+
+// breakpoints
+$breakpoints: (
+  xs: 320px,
+  sm: 600px,
+  md: 768px,
+  lg: 960px,
+  xl: 1440px
+);
+
+$breakpoint-xs: map-get($breakpoints, xs);
+$breakpoint-sm: map-get($breakpoints, sm);
+$breakpoint-md: map-get($breakpoints, md);
+$breakpoint-lg: map-get($breakpoints, lg);
+$breakpoint-xl: map-get($breakpoints, xl);
+
+$light-theme: (
+  color-scheme: light,
+  --background-color: var(--white),
+  --text-color: var(--dark),
+  --border-color: var(--grey)
+);
+
+$dark-theme: (
+  color-scheme: dark,
+  --background-color: var(--dark),
+  --text-color: var(--white),
+  --border-color: var(--grey)
+);

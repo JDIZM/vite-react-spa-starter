@@ -1,0 +1,57 @@
+@use "@/theme/helpers" as *;
+
+html,
+body {
+  background-color: var(--background-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 1rem 0;
+  padding: 0;
+}
+
+.container {
+  height: 100%;
+  min-height: 90vh;
+  width: 90%;
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+
+  @media screen and (min-width: $breakpoint-xl) {
+    width: 100%;
+  }
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+hr {
+  border: 2px solid var(--border-color);
+}
+
+a {
+  color: var(--links);
+  text-decoration: none;
+  outline: none;
+  text-decoration: none;
+  &:hover,
+  &:focus {
+    outline: none;
+    text-decoration: none;
+  }
+}
+
+::selection {
+  background-color: var(--primary);
+  color: white;
+}
