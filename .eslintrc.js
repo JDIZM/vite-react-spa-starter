@@ -34,5 +34,15 @@ module.exports = {
   },
   rules: {
     // Add your own rules here to override ones from the extended configs.
-  }
+    // e.g. "@typescript-eslint/explicit-function-return-type": "off"
+  },
+  overrides: [
+    {
+      files: ["**/__mocks__/*", "**/*.{test,tests}.{ts,tsx}", "**/*.stories.{ts,tsx}"],
+      rules: {
+        "@typescript-eslint/no-unused-vars": 0,
+        "@typescript-eslint/no-explicit-any": 0
+      }
+    }
+  ]
 };
