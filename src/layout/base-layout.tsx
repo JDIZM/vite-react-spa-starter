@@ -1,5 +1,5 @@
 import React from "react";
-import Nav from "@/components/Nav";
+import Nav from "@/components/nav/nav-primary";
 import "./base-layout.scss";
 
 export interface LayoutProps {

@@ -3,7 +3,7 @@ import { useSelector, useDispatch } from "react-redux";
 import { decrement, increment } from "./store/slices/counter";
 import { RootState } from "./store";
 import logo from "./assets/logo.svg";
-import Nav from "./components/Nav";
+import Nav from "./components/nav/nav-primary";
 
 function App() {
   const count = useSelector((state: RootState) => state.counter.value);
