@@ -28,7 +28,7 @@ export const counterSlice = createSlice({
     }
   }
 });
-console.log(counterSlice);
+console.log("counterSlice", counterSlice);
 // Action creators are generated for each case reducer function
 export const { increment, decrement, incrementByAmount } = counterSlice.actions;
 
