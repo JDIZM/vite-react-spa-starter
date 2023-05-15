@@ -3,4 +3,5 @@
 @use "base/theme";
 @use "base/colorScheme";
 
-@use "modules/createClassnames";
+@use "modules/createVars";
+@use "modules/createClasses";

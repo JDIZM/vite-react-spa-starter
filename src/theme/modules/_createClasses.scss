@@ -1,19 +1,5 @@
 @use "@/theme/helpers/vars" as *;
 
-@mixin vars {
-  :root {
-    @each $name, $colour in $colours {
-      --#{"" + $name}: #{$colour};
-    }
-
-    @each $name, $breakpoint in $breakpoints {
-      --breakpoint-#{"" + $name}: #{$breakpoint};
-    }
-  }
-}
-
-@include vars;
-
 @mixin spacing {
   @each $size, $rem in $spacing {
     // margin
