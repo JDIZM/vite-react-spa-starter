@@ -3,13 +3,17 @@
 ## Tech Stack
 
 - [Vite](https://vitejs.dev/)
+- [Vitest](https://vitest.dev/)
 - [Volta.sh](https://volta.sh/)
 - [React](https://reactjs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [Redux](https://redux.js.org/)
 - [Redux Toolkit](https://redux-toolkit.js.org/)
-- [react router v6](https://reactrouter.com/en/6.5.0)
+- [React Router v6](https://reactrouter.com/en/6.5.0)
 - [Husky](https://typicode.github.io/husky/#/)
+- [Storybook](https://storybook.js.org/docs/react/builders/vite)
+- [SASS/SCSS](https://sass-lang.com/)
+- [pnpm](https://pnpm.io/)
 
 ## Getting Started
 
