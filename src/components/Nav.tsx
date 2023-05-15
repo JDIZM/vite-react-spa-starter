@@ -3,17 +3,15 @@ import { Link } from "react-router-dom";
 
 function Nav() {
   return (
-    <header
+    <nav
       style={{
         padding: "2rem 1rem",
         textAlign: "center"
       }}
     >
-      <nav>
-        <Link to="/">Counter</Link> | <Link to="/todos">Todos</Link> | <Link to="/example">Example</Link> |{" "}
-        <Link to="/invoices">Invoices</Link>
-      </nav>
-    </header>
+      <Link to="/">Example</Link> | <Link to="/example">Example</Link> | <Link to="/example">Example</Link> |{" "}
+      <Link to="/example">Example</Link>
+    </nav>
   );
 }
 
