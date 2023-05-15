@@ -12,7 +12,7 @@ const imageStyles = {
 
 const NotFound: React.FC = () => {
   return (
-    <Layout>
+    <Layout layout={"default"}>
       <div
         style={{
           margin: "auto",
