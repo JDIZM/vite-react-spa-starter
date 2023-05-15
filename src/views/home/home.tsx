@@ -20,10 +20,10 @@ function Home() {
       <p>
         count is: {count}
         <br></br>
-        <button type="button" onClick={() => dispatch(increment())}>
+        <button type="button" className="btn btn--primary" onClick={() => dispatch(increment())}>
           add
         </button>
-        <button type="button" onClick={() => dispatch(decrement())}>
+        <button type="button" className="btn btn--secondary" onClick={() => dispatch(decrement())}>
           remove
         </button>
       </p>
