@@ -12,21 +12,23 @@ function Home() {
 
   return (
     <Layout layout={"default"} className={cx("one", "two")}>
-      <h2>Home Page</h2>
-      <div>
-        <img src={logo} alt="logo" />
-        <p>Hello Vite + React!</p>
+      <div className="container">
+        <h2>Home Page</h2>
+        <div>
+          <img src={logo} alt="logo" />
+          <p>Hello Vite + React!</p>
+        </div>
+        <p>
+          count is: {count}
+          <br></br>
+          <button type="button" className="btn btn--primary mr--1 mt--1" onClick={() => dispatch(increment())}>
+            add
+          </button>
+          <button type="button" className="btn btn--secondary" onClick={() => dispatch(decrement())}>
+            remove
+          </button>
+        </p>
       </div>
-      <p>
-        count is: {count}
-        <br></br>
-        <button type="button" className="btn btn--primary" onClick={() => dispatch(increment())}>
-          add
-        </button>
-        <button type="button" className="btn btn--secondary" onClick={() => dispatch(decrement())}>
-          remove
-        </button>
-      </p>
     </Layout>
   );
 }
