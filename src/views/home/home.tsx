@@ -6,7 +6,7 @@ import logo from "@/assets/logo.svg";
 import Layout from "../../layout/base-layout/base-layout";
 import cx from "classnames";
 
-function App() {
+function Home() {
   const count = useSelector((state: RootState) => state.counter.value);
   const dispatch = useDispatch();
 
@@ -31,4 +31,4 @@ function App() {
   );
 }
 
-export default App;
+export default Home;
