@@ -30,6 +30,21 @@ npm run dev
 npm run build
 ```
 
+## Storybook
+
+```
+# start storybook
+pnpm storybook
+```
+
+Using the updated CSF 3.0 syntax see https://storybook.js.org/blog/component-story-format-3-0/
+
+For more on writing stories see: https://storybook.js.org/docs/react/writing-stories/introduction
+
+## Theme
+
+Theme styles
+
 ## Resources
 
 - https://www.youtube.com/watch?v=poQXNp9ItL4&ab_channel=ProgrammingwithMosh
