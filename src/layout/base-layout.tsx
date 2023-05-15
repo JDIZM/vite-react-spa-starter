@@ -12,6 +12,7 @@ const Layout: React.FC<LayoutProps> = ({ children, layout }) => {
     <div className={layout}>
       <Nav />
       <main>{children}</main>
+      <footer role="contentinfo">&copy; {new Date().getFullYear()}</footer>
     </div>
   );
 };

@@ -17,10 +17,9 @@ describe("Layout", () => {
         <Layout {...props} />
       </MemoryRouter>
     );
-    const nav = screen.getAllByRole("navigation");
-    expect(nav).toBeDefined();
-    const main = screen.getAllByRole("main");
-    expect(main).toBeDefined();
+    expect(screen.getByRole("navigation")).toBeDefined();
+    expect(screen.getByRole("main")).toBeDefined();
+    expect(screen.getByRole("contentinfo")).toBeDefined();
   });
 
   it("should have nav links", () => {
