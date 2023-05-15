@@ -4,13 +4,14 @@ import { decrement, increment } from "../../store/slices/counter";
 import { RootState } from "../../store";
 import logo from "@/assets/logo.svg";
 import Layout from "../../layout/base-layout/base-layout";
+import cx from "classnames";
 
 function App() {
   const count = useSelector((state: RootState) => state.counter.value);
   const dispatch = useDispatch();
 
   return (
-    <Layout layout={"default"}>
+    <Layout layout={"default"} className={cx("one", "two")}>
       <h2>Home Page</h2>
       <div>
         <img src={logo} alt="logo" />
