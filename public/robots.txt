@@ -1,0 +1,5 @@
+user-agent: *
+allow: /
+
+# hello user. 
+# find me @JDIZM
