@@ -9,7 +9,7 @@ function Nav() {
         textAlign: "center"
       }}
     >
-      <Link to="/">Example</Link> | <Link to="/example">Example</Link> | <Link to="/example">Example</Link> |{" "}
+      <Link to="/">Home</Link> | <Link to="/example">Example</Link> | <Link to="/example">Example</Link> |{" "}
       <Link to="/example">Example</Link>
     </nav>
   );
