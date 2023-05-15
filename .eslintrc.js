@@ -35,6 +35,7 @@ module.exports = {
   rules: {
     // Add your own rules here to override ones from the extended configs.
     // e.g. "@typescript-eslint/explicit-function-return-type": "off"
+    "no-console": "warn"
   },
   overrides: [
     {
