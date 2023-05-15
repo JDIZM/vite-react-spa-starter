@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import TodoList from "../components/TodoList";
 import Todo from "../components/TodoItem";
 import { getTodos } from "../data/todos";
-import Layout from "../layout/Layout";
+import Layout from "../layout/base-layout";
 
 function Todos() {
   const [todos, setTodos] = useState(getTodos);

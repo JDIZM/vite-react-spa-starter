@@ -1,7 +1,7 @@
 import React from "react";
 import { Link, Outlet } from "react-router-dom";
 import { getInvoices } from "../../data/invoices";
-import Layout from "../../layout/Layout";
+import Layout from "../../layout/base-layout";
 
 export default function Invoices() {
   const invoices = getInvoices();
