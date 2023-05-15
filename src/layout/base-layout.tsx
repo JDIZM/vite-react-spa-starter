@@ -1,5 +1,5 @@
 import React from "react";
-import Nav from "../components/Nav";
+import Nav from "@/components/Nav";
 interface LayoutProps {
   children: JSX.Element | JSX.Element[];
 }
