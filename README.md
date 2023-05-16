@@ -24,10 +24,10 @@ This project uses Volta.sh to manage npm versions. If you don't have it installe
 pnpm install
 
 # start dev server
-npm run dev
+pnpm dev
 
 # build for production
-npm run build
+pnpm build
 ```
 
 ## Storybook
@@ -43,7 +43,11 @@ For more on writing stories see: https://storybook.js.org/docs/react/writing-sto
 
 ## Theme
 
-Theme styles
+Theme styles use SASS/SCSS for preprocessing and [BEM](https://getbem.com/) naming methodology.
+
+A base color scheme is defined using SASS [maps](https://sass-lang.com/documentation/values/maps) which is applied using mixins to set the theme based on the user preferences.
+
+If you wish to change the color scheme then you can apply a `.light` or `.dark` class to the html/body to overwrite the existing scheme.
 
 ## Resources
 
@@ -52,7 +56,4 @@ Theme styles
 - https://redux-toolkit.js.org/tutorials/quick-start
 - https://redux.js.org/tutorials/fundamentals/part-3-state-actions-reducers#rules-of-reducers
 - https://cathalmacdonnacha.com/setting-up-eslint-prettier-in-vitejs
-
-react router
-
 - https://reactrouter.com/docs/en/v6/getting-started/tutorial
