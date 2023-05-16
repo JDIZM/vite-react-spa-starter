@@ -1,5 +1,4 @@
 import { defineConfig } from "vitest/config";
-// import { defineConfig } from "vitest/config";
 import react from "@vitejs/plugin-react";
 import { resolve } from "path";
 
@@ -7,7 +6,7 @@ import { resolve } from "path";
 export default defineConfig({
   plugins: [
     react({
-      // include: ["./vitest/**/*.{test,spec}.{js,mjs,cjs,ts,mts,cts,jsx,tsx}"]
+      // options
     })
   ],
   test: {
@@ -19,7 +18,4 @@ export default defineConfig({
       "@": resolve(__dirname, "./src")
     }
   }
-  // test: {
-  //   include: ["./vitest/**/*.{test,spec}.{js,mjs,cjs,ts,mts,cts,jsx,tsx}"]
-  // }
 });
