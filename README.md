@@ -57,3 +57,7 @@ If you wish to change the color scheme then you can apply a `.light` or `.dark` 
 - https://redux.js.org/tutorials/fundamentals/part-3-state-actions-reducers#rules-of-reducers
 - https://cathalmacdonnacha.com/setting-up-eslint-prettier-in-vitejs
 - https://reactrouter.com/docs/en/v6/getting-started/tutorial
+
+When defining path aliases in tsconfig.json we are using [eslint-import-resolver-alias](https://www.npmjs.com/package/eslint-import-resolver-alias) to resolve the paths in eslint.
+
+- https://github.com/eslint/eslint/discussions/14667
