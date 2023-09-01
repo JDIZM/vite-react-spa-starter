@@ -11,17 +11,16 @@ const initialState: PhotosState = {
 };
 
 export const photosSlice = createSlice({
-  name: "events",
+  name: "photos",
   initialState,
   reducers: {
-    // TODO fetch data with redux, api hook or something else?
-    fetchPhotos: (state, action: PayloadAction<Photo[]>) => {
+    setPhotos: (state, action: PayloadAction<Photo[]>) => {
       state.data = action.payload;
     }
   }
 });
 console.log("photosSlice", photosSlice);
 
-export const { fetchPhotos } = photosSlice.actions;
+export const { setPhotos } = photosSlice.actions;
 
 export default photosSlice.reducer;
