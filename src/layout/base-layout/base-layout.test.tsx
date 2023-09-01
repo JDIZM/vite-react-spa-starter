@@ -24,7 +24,7 @@ describe("Layout", () => {
 
   it("should have nav links", () => {
     const links = screen.getAllByRole("link");
-    expect(links.length).toBe(4);
+    expect(links.length).toBe(3);
   });
 
   it("should render child elements with text content", () => {
