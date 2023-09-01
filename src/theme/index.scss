@@ -3,5 +3,5 @@
 @use "base/theme";
 @use "base/colorScheme";
 
-@use "modules/createVars";
-@use "modules/createClasses";
+@use "mixins/createVars";
+@use "mixins/createClasses";
