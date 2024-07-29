@@ -7,9 +7,6 @@ on:
       - main
       - master
   pull_request:
-    branches:
-      - main
-      - master
 
 jobs:
   ci:
