@@ -24,7 +24,7 @@
     "react-router-dom": "^6.11.1"
   },
   "volta": {
-    "node": "16.18.1"
+    "node": "20.16.0"
   },
   "devDependencies": {
     "@storybook/addon-essentials": "^7.0.12",
