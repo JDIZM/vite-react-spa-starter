@@ -10,7 +10,7 @@ import { Photo } from "@/types/photos";
 import "./photos.scss";
 
 export const PhotosView = () => {
-  const [searchParams, setSearchParams] = useSearchParams();
+  const [searchParams] = useSearchParams();
   const query = searchParams.get("query");
 
   const { data, error, isLoading, fetchData } = useFetchPhotosApi();
